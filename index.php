@@ -16,13 +16,13 @@
         <thead>
             <tr>
                 <td>ID</td>
-                <td>name</td>
-                <td>eamail</td>
+                <td>NANE</td>
+                <td>email</td>
                 <td>phone</td>
-                <td>adress</td>
+                <td>address</td>
                 <td>data urodzenia</td>
                 <td>created_at</td>
-                <td>deleted</td>
+                <td>action</td>
             </tr>
     <tbody>
         <?php
@@ -48,11 +48,11 @@
                 echo"
                     <tr>
                         <td>$row[id]</td>
-                        <td>$row[name]</td>
+                        <td>$row[NAME]</td>
                         <td>$row[email]</td>
                         <td>$row[phone]</td>
-                        <td>$row[adress]</td>
-                        <td>$row[crated_at]</td>
+                        <td>$row[address]</td>
+                        <td>$row[created_at]</td>
                         <td>
                             <a class='btn- btn-primary btn-sm' href='/mysop/edit.php'>Edit</a>
                             <a class='btn- btn-primary btn-sm' href='/mysop/delete.php'>Delete</a>
@@ -67,9 +67,10 @@
             <td>bill.gates@microsoft.com</td>
             <td>+44 123456789</td>
             <td> New York Ave 44</td>
-            <td><a class='btn btn-primary btn-sm href='/'>Edytuj</a>
-            <td><a class='btn btn-primary btn-sm href='/'>Usuń</a>
+            <td>2024-01-02 13:03:16</td>
         </tr>
+        <td><a class='btn btn-primary btn-sm href='/'>Edytuj</a>
+        <td><a class='btn btn-primary btn-sm href='/'>Usuń</a>
     </tbody>
     </thead>
 </table>
